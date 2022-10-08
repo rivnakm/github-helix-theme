@@ -1,0 +1,78 @@
+# Syntax Highlighting
+attribute = "#79c0ff"
+type = "#ffa657"
+"type.builtin" = "#ff7b72"
+constructor = "#d2a8ff"
+constant = "#79c0ff"
+string = "#a5d6ff"
+label = "#ffa657" # used for lifetimes
+comment = "#8b949e"
+variable = "#c9d1d9"
+"variable.builtin" = "#ff7b72"
+keyword = "#ff7b72"
+namespace = "#ffa657"
+punctuation = "#c9d1d9"
+"punctuation.special" = "#79c0ff"
+operator = "#ff7b72"
+function = "#d2a8ff"
+tag = "#7ee787"
+"markup.heading" = "#79c0ff"
+"markup.list" = "#ffa657"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "#c9d1d9", modifiers = ["underlined"] }
+"markup.link.text" = "#79c0ff"
+"markup.raw" = "#c9d1d9"
+
+"diff.plus" = "#56d364"
+"diff.minus" = "#f85149"
+"diff.delta" = "#e3b341"
+"diff.delta.moved" = "#73c991"
+
+"ui.background" = { bg = "#0d1117" }
+"ui.background.separator" = { fg = "#b3b1ad" }
+"ui.linenr" = { fg = "#8b949e" }
+"ui.linenr.selected" = { fg = "#c9d1d9" }
+"ui.statusline" = { fg = "#c9d1d9", bg = "#0d1117" }
+"ui.statusline.inactive" = { fg = "#8b949e", bg = "#0d1117" }
+"ui.popup" = { bg = "#161b22" }
+"ui.window" = { fg = "#b3b1ad" }
+"ui.help" = { bg = "#161b22" }
+
+"ui.text" = { fg = "#b3b1ad" }
+"ui.virtual" = { fg = "#4d5566" }
+
+"ui.selection" = { bg = "#163356" }
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "#c9d1d9", bg = "#2c2b1c" }
+"ui.highlight" = { bg = "#161b22" }
+
+"ui.menu" = { fg = "#c9d1d9", bg = "#161b22" }
+"ui.menu.selected" = { fg = "#c9d1d9", bg = "#3b3f47" }
+"ui.menu.scroll" = { fg = "#21262d", bg = "#161b22" }
+
+diagnostic = { modifiers = ["underlined"] }
+
+warning = "#f0883e"
+error = "#f85149"
+info = "#73b7f2"
+hint = "#8b949e"
+
+# Palette Colors
+[palette]
+black = "#484f58"
+blue = "#58a6ff"
+bright_black = "#6e7681"
+bright_blue = "#79c0ff"
+bright_cyan = "#56d4dd"
+bright_green = "#56d364"
+bright_magenta = "#d2a8ff"
+bright_red = "#ffa198"
+bright_white = "#f0f6fc"
+bright_yellow = "#e3b341"
+cyan = "#39c5cf"
+green = "#3fb950"
+magenta = "#bc8cff"
+red = "#ff7b72"
+white = "#b1bac4"
+yellow = "#d29922"
